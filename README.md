@@ -71,7 +71,7 @@ hidden - Defines a hidden border
 The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).
  The practice code is provided for al the border styles.
 
-<<<<<<< HEAD
+
 CSS Setting height and width
 ============================
 The height and width properties are used to set the height and width of an element.
@@ -87,7 +87,7 @@ length - Defines the height/width in px, cm etc.
 % - Defines the height/width in percent of the containing block
 initial - Sets the height/width to its default value
 inherit - The height/width will be inherited from its parent value
-=======
+
 CSS margins
 ===========
 Margins are used to create space around elements, outside of any defined borders.
