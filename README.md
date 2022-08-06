@@ -39,12 +39,12 @@ The CSS background properties are used to add background effects for elements.
 
 In these chapters, you will learn about the following CSS background properties:
 
-background-color
-background-image
-background-repeat
-background-attachment
-background-position
-background (shorthand property)
+*background-color
+*background-image
+*background-repeat
+*background-attachment
+*background-position
+*background (shorthand property)
 Practice code on these proerties are provided.
 
  CSS Borders
