@@ -1,6 +1,13 @@
 body {
     background-color: aqua;
     background-image: url("Screenshot (54).png");
+    background-repeat: repeat-x;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 100%;
+    /*background property can also use "
+     background="black no-repeat 100% scrolled;
+     " */
 }
 
 h1 {
