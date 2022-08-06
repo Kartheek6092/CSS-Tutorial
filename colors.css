@@ -2,6 +2,11 @@ p {
     background-color: rgb(253, 242, 92);
 }
 
+body {
+    background-color: #c54dcd;
+    opacity: 0.7;
+}
+
 #rgb {
     background-color: rgb(255, 0, 0);
 }
