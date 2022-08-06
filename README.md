@@ -71,6 +71,7 @@ hidden - Defines a hidden border
 The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).
  The practice code is provided for al the border styles.
 
+<<<<<<< HEAD
 CSS Setting height and width
 ============================
 The height and width properties are used to set the height and width of an element.
@@ -86,3 +87,42 @@ length - Defines the height/width in px, cm etc.
 % - Defines the height/width in percent of the containing block
 initial - Sets the height/width to its default value
 inherit - The height/width will be inherited from its parent value
+=======
+CSS margins
+===========
+Margins are used to create space around elements, outside of any defined borders.
+
+Margin - Individual Sides
+--------------------------
+CSS has properties for specifying the margin for each side of an element:
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+All the margin properties can have the following values:
+
+auto - the browser calculates the margin
+length - specifies a margin in px, pt, cm, etc.
+% - specifies a margin in % of the width of the containing element
+inherit - specifies that the margin should be inherited from the parent element
+Tip: Negative values are allowed.
+Practice code is provided.
+
+Margin Collapse
+===============
+Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.
+
+CSS padding
+===========
+Padding is used to create space around an element's content, inside of any defined borders.
+Padding - Individual Sides
+CSS has properties for specifying the padding for each side of an element:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+This does not happen on left and right margins! Only top and bottom margins!
+Practiec code is provided.
+
