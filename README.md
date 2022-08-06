@@ -39,10 +39,34 @@ The CSS background properties are used to add background effects for elements.
 
 In these chapters, you will learn about the following CSS background properties:
 
-background-color
-background-image
-background-repeat
-background-attachment
-background-position
-background (shorthand property)
+*background-color
+*background-image
+*background-repeat
+*background-attachment
+*background-position
+*background (shorthand property)
 Practice code on these proerties are provided.
+
+ CSS Borders
+ ===========
+ 
+ The CSS border properties allow you to specify the style, width, and color of an element's border.
+ 
+ CSS Border Style
+ -----------------
+The border-style property specifies what kind of border to display.
+
+The following values are allowed:
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).
+ The practice code is provided for al the border styles.
