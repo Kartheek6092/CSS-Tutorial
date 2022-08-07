@@ -157,3 +157,112 @@ outset - Defines a 3D outset outline
 none - Defines no outline
 hidden - Defines a hidden outline
 Practice code is provided for all outline styles.
+
+Text Color
+===========
+The color property is used to set the color of the text. The color is specified by:
+
+a color name - like "red"
+a HEX value - like "#ff0000"
+
+CSS Text Alignment and Text Direction
+=====================================
+In this chapter you will learn about the following properties:
+
+text-align
+text-align-last
+direction
+unicode-bidi
+vertical-align
+an RGB value - like "rgb(255,0,0)"
+
+All CSS text-decoration Properties
+----------------------------------
+Property	Description
+text-decoration	Sets all the text-decoration properties in one declaration
+text-decoration-color	Specifies the color of the text-decoration
+text-decoration-line	Specifies the kind of text decoration to be used (underline, overline, etc.)
+text-decoration-style	Specifies the style of the text decoration (solid, dotted, etc.)
+text-decoration-thickness	Specifies the thickness of the text decoration line
+
+Text Transformation
+-------------------
+The text-transform property is used to specify uppercase and lowercase letters in a text.
+It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word:
+
+The CSS Text Spacing Properties
+-------------------------------
+Property	Description
+letter-spacing	Specifies the space between characters in a text
+line-height	Specifies the line height
+text-indent	Specifies the indentation of the first line in a text-block
+white-space	Specifies how to handle white-space inside an element
+word-spacing	Specifies the space between words in a text
+Practice code is not provided.
+
+Font Selection is Important
+===========================
+Choosing the right font has a huge impact on how the readers experience a website.
+
+The right font can create a strong identity for your brand.
+
+Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font.
+
+Generic Font Families
+In CSS there are five generic font families:
+
+Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+Cursive fonts imitate human handwriting.
+Fantasy fonts are decorative/playful fonts.
+All the different font names belong to one of the generic font families.
+
+Best Web Safe Fonts for HTML and CSS
+-------------------------------------
+The following list are the best web safe fonts for HTML and CSS:
+
+Arial (sans-serif)
+Verdana (sans-serif)
+Helvetica (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)
+
+Commonly Used Font Fallbacks
+----------------------------
+Below are some commonly used font fallbacks, organized by the 5 generic font families:
+
+Serif
+Sans-serif
+Monospace
+Cursive
+Fantasy
+
+Font Style
+----------
+The font-style property is mostly used to specify italic text.
+
+This property has three values:
+
+normal - The text is shown normally
+italic - The text is shown in italics
+
+The CSS Font Property
+---------------------
+To shorten the code, it is also possible to specify all the individual font properties in one property.
+
+The font property is a shorthand property for:
+
+font-style
+font-variant
+font-weight
+font-size/line-height
+font-family
+Note: The font-size and font-family values are required. If one of the other values is missing, their default value are used.
+oblique - The text is "leaning" (oblique is very similar to italic, but less supported)
+
