@@ -1,0 +1,20 @@
+a:link{
+    color: coral;
+    text-decoration: none;
+    background-color:white;
+    padding: 20px;
+    border: 3px solid black;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    background-color: darkcyan;
+    color: rgb(240, 48, 48);
+}
+a:active{
+    color: cyan;
+}
